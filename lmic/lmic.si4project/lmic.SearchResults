@@ -1,0 +1,3 @@
+---- startRxPing Matches (2 in 1 files) ----
+lmic.c line 1878 : static void startRxPing (xref2osjob_t osjob) {
+engineUpdate in lmic.c :             os_setTimedCallback(&LMIC.osjob, LMIC.rxtime - RX_RAMPUP, FUNC_ADDR(startRxPing));
